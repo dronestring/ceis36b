@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Raymond</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"     
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Raymond</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="https://github.com/dronestring">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!--top container-->
+        <div class="top-container">
+            <div class="jumbotron">
+                <h1>Raymond</h1>
+                <h1>Software Developer</h1>
+                <img class="img-responsive img-circle margin" src="images/computer.png"
+                style="width: 15%" alt="img-computer" />
+            </div>
+        </div>
+
+        <!--middle container-->
+        <div class="middle-container">
+            <img  src="images/profile.png" class ="rounded-circle" alt="img-personal" />
+            <h2>Profile</h2>
+            <p class="intro">I started writing code when I was a kid on an Aquas Computer and loved it ever since.  
+            <br>My favorite programming languages are C, C++, C#, and Website Programming.  </p>
+            <hr>
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Website Development</h3>
+                    <p>I've created a few websites over the years and really enjoy bringing content to life on the world wide web.</p>
+                    <img src="images/code.png" class="img-responsive margin" style="width:50%" alt="Databases"/>
+                </div>
+                <div class="col-sm-4"> 
+                    <h3>Artificial Intelligence</h3>
+                    <p>I'm currently am developing AI powered tools to enhance our engineers toolbox at my current employment.</p>
+                    <img src="images/ai.jpg" class="img-responsive margin" style="width:50%" alt="AI-img"/>
+                </div>
+                <div class="col-sm-4"> 
+                    <h3>Photography</h3>
+                    <p>When I am not working or in classes, I enjoy capturing nature with my camera. I've thought about selling my work online however have not taken that step yet. Here is one of my photos taken last year at Batsto Village.</p>
+                    <img src="images/_M6A0183.JPG" class="img-responsive margin" style="width:50%" alt="Lake"/>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="contact" id="contact">
+                <h1>Feel free to contact me a <a href="mailto:dronstring84@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                </a></h1>
+            </div>
+            <ul class="social-menu">
+                <li><a href="https://github.com"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p style="color: white;" id="currdate"></p>
+            <script type="text/javascript" src="script.js"></script>
+        </div>
+    </body>
+</html>
